@@ -1,5 +1,6 @@
 import React from "react";
 import Cabecalho from "../../components/Cabecalho";
+import Rodape from '../../components/Rodape'
 import './servicos.css'
 
 const Servicos = () => {
@@ -16,6 +17,7 @@ const Servicos = () => {
             <img className="imagemchat1" src="/img/chatbot1.png" alt="Imagem de um exemplo de chatbot" />
             <img className="imagemchat1" src="/img/chatbot2.png" alt="Imagem de um exemplo de chatbot" />
            </section>
+           <Rodape></Rodape>
         </body>
     )
 }
