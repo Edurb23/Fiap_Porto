@@ -1,3 +1,105 @@
-body{
-    background-color: #C9C5C5;
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Spinnaker&display=swap');
+
+ body{
+     background-color: #C9C5C5;
 }
+
+.conteudo h1{
+    color: #939BF5;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 4%;
+}
+
+.texto-descritivo{
+    color: #000;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    padding: 4%;
+}
+
+.imagemchat1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin-bottom: 40px;
+    padding: 2% 0% 0% 33%;
+   
+
+}
+
+@media (max-width:1500px){
+    .imagemchat1{
+        padding: 2% 0% 0% 29%;
+    }
+}
+
+@media (max-width:1404px){
+    .imagemchat1{
+        flex-direction: column;
+       
+    }
+}
+
+@media (max-width:1200px){
+    .imagemchat1{
+        flex-direction: column;
+        padding: 2% 0% 0% 25%;
+       
+    }
+}
+
+@media (max-width:1000px){
+    .texto-descritivo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 0% 5% 9%;
+    }
+    .imagemchat1{
+        flex-direction: column;
+        padding: 2% 0% 0% 22%;
+       
+    }
+}
+
+
+@media (max-width:844px){
+    .conteudo h1{
+        padding-left: 30%;
+    }
+    
+    .texto-descritivo{
+        padding-left: 30%;
+    }
+    .imagemchat1{
+        padding-left: 30%;
+    }
+}
+
+
+@media (max-width:754px){
+    .conteudo h1{
+        padding-left: 40%;
+    }
+    
+    .texto-descritivo{
+        padding-left: 40%;
+        font-weight: 100;
+    }
+    .imagemchat1{
+        padding-left: 30%;
+    }
+}
+
+
+
+
+

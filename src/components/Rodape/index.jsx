@@ -6,7 +6,7 @@ const Rodape = () => {
     return(
         <section className="footer">
             <ul>
-                <img src="" alt="Logo da porto" />
+                <img src="./img/porto-seguro-novo-logo-444639E178-seeklogo.com.png" alt="Logo da porto" />
                 <li>
                     <a>
                         Sobre nos
