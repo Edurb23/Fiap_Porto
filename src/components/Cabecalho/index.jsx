@@ -1,8 +1,9 @@
 import React from "react"
+import "./cabecalho.css"
 
 const Cabecalho = () => {
     return(
-        <header>
+        <header className="cabecalho">
             <img src="/img/porto-seguro-novo-logo-444639E178-seeklogo.com.png" alt="LOGO PORTO SEGURO" />
             <nav>
                 <a href="">Home</a>
