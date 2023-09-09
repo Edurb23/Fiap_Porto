@@ -1,14 +1,17 @@
-body{
-    background-color: #C9C5C5;
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Spinnaker&display=swap');
+
+ body{
+     background-color: #C9C5C5;
 }
 
 .conteudo h1{
     color: #939BF5;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 80px;
     text-align: center;
     line-height: 28px;
-    font-family: 'Spinnaker';
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spinnaker', sans-serif;
     padding: 4%;
 }
 
