@@ -15,7 +15,7 @@
     padding: 4%;
 }
 
-.conteudo p{
+.texto-descritivo{
     color: #000;
     font-weight: 700;
     font-size: 35px;
@@ -34,4 +34,72 @@
    
 
 }
+
+@media (max-width:1500px){
+    .imagemchat1{
+        padding: 2% 0% 0% 29%;
+    }
+}
+
+@media (max-width:1404px){
+    .imagemchat1{
+        flex-direction: column;
+       
+    }
+}
+
+@media (max-width:1200px){
+    .imagemchat1{
+        flex-direction: column;
+        padding: 2% 0% 0% 25%;
+       
+    }
+}
+
+@media (max-width:1000px){
+    .texto-descritivo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5% 0% 5% 9%;
+    }
+    .imagemchat1{
+        flex-direction: column;
+        padding: 2% 0% 0% 22%;
+       
+    }
+}
+
+
+@media (max-width:844px){
+    .conteudo h1{
+        padding-left: 30%;
+    }
+    
+    .texto-descritivo{
+        padding-left: 30%;
+    }
+    .imagemchat1{
+        padding-left: 30%;
+    }
+}
+
+
+@media (max-width:754px){
+    .conteudo h1{
+        padding-left: 40%;
+    }
+    
+    .texto-descritivo{
+        padding-left: 40%;
+        font-weight: 100;
+    }
+    .imagemchat1{
+        padding-left: 30%;
+    }
+}
+
+
+
+
 
