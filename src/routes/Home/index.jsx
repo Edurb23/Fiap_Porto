@@ -7,7 +7,7 @@ const Home = () => {
     return(
         <body>
           <Cabecalho></Cabecalho> 
-          <Rodape/> 
+          
         </body>
     )
 }

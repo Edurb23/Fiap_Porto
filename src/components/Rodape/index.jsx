@@ -1,10 +1,10 @@
 import React from "react"
-
+import "./rodape.css"
 
 
 const Rodape = () => {
     return(
-        <section>
+        <section className="footer">
             <ul>
                 <img src="" alt="Logo da porto" />
                 <li>
@@ -30,17 +30,17 @@ const Rodape = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="linkedin.com" target="_blank">
+                    <a href="www.linkedin.com" target="_blank">
                        <img src="" alt="logo linkidn" />
                     </a>
                 </li>
                 <li>
-                    <a href="facebook.com" target="_blank"> 
+                    <a href="www.facebook.com" target="_blank"> 
                         <img src="" alt="logo Facebook" />
                     </a>
                 </li>
                 <li>
-                    <a href="X.com" target="_blank"> 
+                    <a href="www.X.com" target="_blank"> 
                         <img src="X" alt="Logo do Twitter" />
                     </a>
                 </li>
