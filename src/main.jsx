@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { createBrowserRoute, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home'
 import Servicos from './routes/Servicos'
 import Integrantes from './routes/Integrantes'
 import Error from './routes/Error'
 
-const router = createBrowserRoute([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
@@ -25,12 +25,12 @@ const router = createBrowserRoute([
       {
         path: "/integrantes",
         element: <Integrantes/>
-      },
+      }
     ]
   }
-]
+])
 
-)
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
