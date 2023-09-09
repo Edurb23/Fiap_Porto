@@ -48,3 +48,6 @@ const Rodape = () => {
         </section>
     )
 }
+
+
+export default Rodape
