@@ -1,3 +1,23 @@
 body{
     background-color: #C9C5C5;
 }
+
+.conteudo h1{
+    color: #939BF5;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Spinnaker';
+    padding: 4%;
+}
+
+.conteudo p{
+    color: #000;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    padding: 4%;
+}
+
