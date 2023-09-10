@@ -36,3 +36,16 @@ section{
     color: #212121;
     padding: 0 16px;
 }
+
+
+@media (max-width:850px){
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 5px;
+        padding-bottom: 15px ;
+        margin-left: 10px;
+        
+    }
+}
