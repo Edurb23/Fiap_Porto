@@ -49,3 +49,12 @@ section{
         
     }
 }
+
+@media (max-width: 320px){
+    .team1 div{
+        padding: 10px;
+    }
+    .team2 div{
+        padding: 10px;
+    }
+}
