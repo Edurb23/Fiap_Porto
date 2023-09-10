@@ -32,3 +32,40 @@
     color: #939BF5;
 }
 
+.servicos{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos a{
+   text-align: center;
+    font-weight: 500;
+   font-size: 40px;
+   border: 1px solid;
+   width: 10%;
+   border-radius: 7px;
+   padding: 0px, 8px, 0px, 8px;
+   margin-left: 45%;
+   background-color: #000000;
+   color: #939BF5;
+   
+}
+
+.servicos p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 2%;
+
+}
+
+.servicos div{
+    width: 978px;
+    height: 308px;
+    border-radius: 45px;
+    background-color: #000000;
+    color: #939BF5;
+    margin-left: 20%;
+    }
+

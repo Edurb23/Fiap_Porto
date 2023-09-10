@@ -14,6 +14,23 @@ const Conteudo = () => {
     
         </section>
 
+        <section className="servicos">
+            <a>serviços</a>
+            <p>Nosso serviço é recolher dados do cliente para a otimização dos serviços da porto, nosso chatbot é de rápido e facil entendimento para todas as faixas etárias.  </p>
+            <div>
+                <h3>chatbot otimizado</h3>
+                <img src="/img/chatIA.png" alt="" />
+            </div>
+            <div>
+            <h3>como funciona nosso tabalho?</h3>
+            <img src="/img/Guincho_P-2-1-1.png" alt="" />
+            </div>
+            <div>
+            <h3>status modal de envio</h3>
+            <img src="/img/looding.png" alt="" />
+            </div>
+        </section>
+
        
 
        
