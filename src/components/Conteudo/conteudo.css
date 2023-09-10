@@ -69,3 +69,21 @@
     margin-left: 20%;
     }
 
+.servicos h3{
+    font-size: 26px;
+    margin: 1%;
+}
+
+.IA {
+    width: 300px;
+    height: 161px;
+    border-radius: 18px;
+    padding: 40px;
+}
+
+.looading{
+    width: 387px;
+    height: 117px;
+    padding: 55px 0px 0px 4px;
+    margin: 0%;
+}
