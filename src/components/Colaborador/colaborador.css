@@ -1,0 +1,66 @@
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding-bottom: 10px ;
+    margin-left: 10px;
+    
+}
+
+.colaborador{
+    width: 280px;
+    
+   }
+
+.colaborador .cabecalho {
+    background-color:  #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.colaborador .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.colaborador .rodape h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #212121;
+    padding: 0 16px;
+}
+
+
+@media (max-width:850px){
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 5px;
+        padding-bottom: 15px ;
+        margin-left: 10px;
+        
+    }
+}
+
+@media (max-width:768px){
+    .team1 div{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .team1 div{
+        padding: 10px;
+    }
+    .team2 div{
+        padding: 10px;
+    }
+}
