@@ -1,3 +1,11 @@
 body{
     background-color: #C9C5C5;
 }
+
+.titulo{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
