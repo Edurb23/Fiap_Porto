@@ -28,3 +28,44 @@
 }
 
 
+@media (max-width: 1514px){
+    .cabecalho a{
+       margin-right: 30px;
+    }
+}
+
+@media (max-width: 1514px){
+    .cabecalho a{
+       margin-right: 30px;
+    }
+}
+
+@media (max-width:1084px){
+    .cabecalho a{
+        margin: 10px;
+    }
+
+}
+
+@media (max-width:768px){
+    .cabecalho a{
+        right: 60px;
+        font-size: 25px;
+    }
+    .cabecalho img{
+        width: 45%;
+        margin-right: 15px;
+    }
+
+@media (max-width: 320px){
+    .cabecalho img{
+        width: 30%;
+    }
+    .cabecalho a{
+        font-size: 15px;
+    }
+}
+
+
+}
+
