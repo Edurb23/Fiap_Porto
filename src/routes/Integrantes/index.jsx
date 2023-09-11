@@ -11,7 +11,7 @@ const Integrantes = () => {
     return(
         <body>
             <Cabecalho></Cabecalho>
-            <h1 className="titulo">Integrantes</h1>
+           
            
              <Colaborador></Colaborador>
 

@@ -96,5 +96,52 @@
     margin: 0%;
 }
 
+@media (max-width:768px){
+    .inicio{
+        padding: 5%;
+        margin-bottom: 20%;
+    }
+    .inicio img{
+        display: none;
+    }
+    .servicos a{
+        width: 20%;
+        margin-right: 15%;
+
+    }
+    .servicos p{
+        margin-left: 25%;
+    }
+
+    
+.cards-servicos div{
+    width: 860px;
+    margin-left: 4%;
+    
+  
+}
+}
+@media (max-width:425px){
+    .inicio{
+        margin-left: 40%;
+        padding: 10%;
+        margin-bottom: 25%;
+    }
+
+    .servicos{
+        margin-left: 60%;
+       
+       
+    }
+    .servicos a{
+        width: 80%;
+       
+    }
+    .servicos p{
+        display: none;
+    }
+
+    
+}
 
 

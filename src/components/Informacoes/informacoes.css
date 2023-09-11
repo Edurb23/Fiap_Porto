@@ -58,5 +58,30 @@
     font-family: 'Spinnaker', sans-serif;
 }
 
+@media (max-width:768px){
+    .OWP a{
+        margin-left: 35%;
+        
+    }
+    .OWP p{
+        margin-left: 35%;
+    } 
+    .cards div{
+        width: 760px;
+       
+       
+    }  
+}
 
+
+@media (max-width:425px){
+  .OWP a{
+    margin-left: 80%;
+    font-size: 30px;
+    width: 80%;
+  }
+  .OWP p{
+    display: none;
+  }
+}
 

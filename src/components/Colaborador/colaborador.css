@@ -85,3 +85,12 @@ section{
         padding: 10px;
     }
 }
+
+@media (max-width: 425px){
+    .titulo{
+        font-size: 60px;
+        margin-left: 25%;
+    }
+   
+    
+}
