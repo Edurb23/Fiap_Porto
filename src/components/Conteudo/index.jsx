@@ -1,6 +1,7 @@
 import React from "react";
 import "./conteudo.css"
 import Informacoes from "../Informacoes";
+import Colaborador from "../Colaborador"
 
 const Conteudo = () => {
     return (
@@ -38,6 +39,10 @@ const Conteudo = () => {
 
 
             <Informacoes></Informacoes>
+           
+            <Colaborador></Colaborador>
+
+
 
 
         </>

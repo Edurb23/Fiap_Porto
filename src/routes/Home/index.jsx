@@ -9,6 +9,7 @@ const Home = () => {
         <body>
           <Cabecalho></Cabecalho> 
            <Conteudo></Conteudo>
+           <Rodape></Rodape>
         </body>
     )
 }  

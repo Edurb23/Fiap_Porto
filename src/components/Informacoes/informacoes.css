@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Spinnaker&display=swap');
+
+
 .OWP{
     display: flex;
     flex-direction: column;
@@ -34,18 +37,7 @@
     
 }
 
-.card-aberto{
-    background-color: #F3F3F3;
-    border-radius: 45px;
-    text-align: center;
-    font-size: 15px;
-    width: 1234px;
-    height: 124px;
-    padding: 41px 60px 41px 60px;
-    margin-left: 10%;
-    margin-top: 3%;
-}
-.card-fechado{
+.cards div{
     background-color: #F3F3F3;
     border-radius: 45px;
     text-align: center;
@@ -55,15 +47,16 @@
     padding: 41px 60px 41px 60px;
     margin-left: 10%;
     margin-top: 3%;
+    box-shadow: grey 5px 5px 5px 5px ;
+    
 }
 
 .cards div h1 {
     font-size: 38px;
     color: #939BF5;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spinnaker', sans-serif;
 }
 
-.cards div p{
-    font-size: 20px;
-    margin-top: 2%;
-    color: #000;
-}
+
+

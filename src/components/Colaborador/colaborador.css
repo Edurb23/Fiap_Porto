@@ -7,6 +7,16 @@ section{
     
 }
 
+.titulo{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    color: #939BF5;
+}
+
+
 .colaborador{
     width: 280px;
     
