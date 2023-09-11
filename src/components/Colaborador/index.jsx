@@ -55,7 +55,7 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> Pedro Henrique Figueiredo </h4>
             <h5> Aluno na fiap  rm552000   </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            <img className="Social-icon" src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
             </div>
             <div className="rodape">
             
