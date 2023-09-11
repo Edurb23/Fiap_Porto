@@ -17,7 +17,7 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> Eduardo Reis Braga </h4>
             <h5> Aluno na fiap  rm551987  </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            <img src="/img/icons8-linkedin.png" alt="Linkidin logo" />
             </div>
             <div className="rodape">
             
@@ -29,7 +29,7 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> Raphael Custodio Pabst</h4>
             <h5> Aluno na fiap  rm98525 </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            <img src="/img/icons8-linkedin.png" alt="Linkidin logo" />
             </div>
             <div className="rodape">
             
@@ -41,7 +41,10 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> silvio Luiz Aranha Junior </h4>
             <h5> Aluno na fiap  rm550821  </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            
+
+            <img src="/img/icons8-linkedin.png" alt="Linkidin logo" />
+          
             </div>
             <div className="rodape">
             
@@ -55,7 +58,7 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> Pedro Henrique Figueiredo </h4>
             <h5> Aluno na fiap  rm552000   </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            <img  src="/img/icons8-linkedin.png" alt="Linkidin logo" />
             </div>
             <div className="rodape">
             
@@ -66,7 +69,7 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> Pedro Henrique Braga Alves </h4>
             <h5> Aluno na fiap  rm552000   </h5>
-            <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+            <img src="/img/icons8-linkedin.png" alt="Linkidin logo" />
             </div>
              <div className="rodape">
             

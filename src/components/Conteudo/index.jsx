@@ -9,7 +9,7 @@ const Conteudo = () => {
             <section className="inicio">
                 <h1>Somos a empresa jarvis e estamos aqui para ajudar com seu problema !
                     <p>A Porto é uma holding brasileira fundada em 1945. A atuação da empresa se baseia em três verticais de negócios: Porto Seguros, Porto Saúde e Porto Seguro Bank.</p>
-                    <button>Site Porto</button>
+                    <a href="https://www.portoseguro.com.br/" target="_blank"><button>Site Porto</button></a>
                 </h1>
 
                 <img src="/img/Guincho_P-2-1-1.png" alt="" />

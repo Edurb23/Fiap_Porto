@@ -15,6 +15,8 @@ const Integrantes = () => {
            
              <Colaborador></Colaborador>
 
+             <a className="repositorio" href="https://github.com/Edurb23/Fiap_Porto" target="_blank">Nosso Repositorio</a> 
+
              <Rodape></Rodape>
                 
              

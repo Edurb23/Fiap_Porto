@@ -48,6 +48,8 @@
 
 }
 
+
+
 @media (max-width:768px){
     .cabecalho a{
         right: 60px;
@@ -58,6 +60,15 @@
         margin-right: 15px;
     }
 
+@media (max-width:438px){
+    .cabecalho a {
+        margin-left: 5%;   
+    }
+    .cabecalho img{
+        width: 35%;
+        margin-right: 75px;
+    }
+}
 @media (max-width: 320px){
     .cabecalho img{
         width: 35%;
