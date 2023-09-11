@@ -45,7 +45,7 @@
     width: 1234px;
     height: 45px;
     padding: 41px 60px 41px 60px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 3%;
     box-shadow: grey 5px 5px 5px 5px ;
     
@@ -71,6 +71,39 @@
        
        
     }  
+}
+
+@media (max-width:860px){
+    .OWP a{
+        margin-left: 50%;
+        font-size: 30px;
+        width: 40%;
+      }
+      .OWP p{
+        display: none;
+      }
+      .cards div{
+        width: 800px;
+        height: 55px;
+      }
+}
+
+@media (max-width:438px){
+    .OWP a{
+        margin-left: 40%;
+        margin-bottom: 2%;
+        width: 80%;
+      }
+      .cards div{
+        width: 500px;
+        height: 65px;
+       margin: 5%;
+       
+      }
+      .cards div h1{
+        font-size: 30px;
+
+      }
 }
 
 

@@ -1,7 +1,7 @@
 .inicio{
     display: flex;
     justify-content: center;
-    margin-right: 15%;
+    margin-right: 30%;
 }
 
 .inicio img{
@@ -72,7 +72,7 @@
     border-radius: 45px;
     background-color: #000000;
     color: #939BF5;
-    margin-left: 20%;
+    margin-left: 23%;
     padding: 2%;
     margin-top: 3%;
 }
@@ -95,6 +95,12 @@
     padding: 55px 0px 0px 4px;
     margin: 0%;
 }
+.colaborador img{
+    width: 35px;
+    margin: 1%;
+}
+
+
 
 @media (max-width:768px){
     .inicio{
@@ -121,6 +127,53 @@
   
 }
 }
+
+@media (max-width:860px){
+    .inicio{
+        padding: 5%;
+        margin-bottom: 20%;
+        margin: 5%;
+    }
+    .servicos a{
+        width: 28%;
+        
+        margin-left: 55%;
+        margin-top: 8%;
+        
+    }
+    .servicos p{
+       display: none;
+    }
+    .cards-servicos div{
+        width: 750px;
+         height: 308px;
+    }
+
+}
+
+@media (max-width:438px){
+    .inicio{
+        margin-left: 50%;
+        margin-bottom: 20%;
+    }
+    .servicos a{
+        width: 30%;
+        
+        margin-left: 65%;
+        margin-top: 8%;
+        
+    }
+    .servicos p{
+        display: none;
+    }
+    .cards-servicos div{
+        margin: 5%;
+        margin-left: 15%;
+        width: 120%;
+
+    }
+}
+
 @media (max-width:425px){
     .inicio{
         margin-left: 40%;
