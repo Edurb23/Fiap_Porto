@@ -41,7 +41,10 @@ const Colaborador = () => {
             <div className="cabecalho">
             <h4> silvio Luiz Aranha Junior </h4>
             <h5> Aluno na fiap  rm550821  </h5>
+            
+
             <img src="/img/icons8-linkedin.svg" alt="Linkidin logo" />
+          
             </div>
             <div className="rodape">
             
