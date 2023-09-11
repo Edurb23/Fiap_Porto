@@ -1,0 +1,148 @@
+.inicio{
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.inicio img{
+    width: 60vh;
+}
+.inicio h1{
+    display: block;
+    width: 531px;
+    height: 185px;
+    font-size: 40px;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.inicio h1 p{
+    width: 498px;
+    height: 72px;
+    font-size: 16px; 
+    margin-top: 5%;
+}
+
+.inicio h1 button{
+    width: 301px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px, 35px, 20px, 35px;
+    background-color: #000000;
+    color: #939BF5;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos a{
+   text-align: center;
+    font-weight: 500;
+   font-size: 40px;
+   border: 1px solid;
+   width: 10%;
+   border-radius: 7px;
+   padding: 0px, 8px, 0px, 8px;
+   margin-left: 45%;
+   background-color: #000000;
+   color: #939BF5;
+   
+}
+
+.servicos p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 2%;
+
+}
+
+.cards-servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cards-servicos div{
+    width: 978px;
+    height: 308px;
+    border-radius: 45px;
+    background-color: #000000;
+    color: #939BF5;
+    margin-left: 20%;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.cards-servicos h3{
+    font-size: 26px;
+    margin: 1%;
+}
+
+.IA {
+    width: 300px;
+    height: 161px;
+    border-radius: 18px;
+    padding: 40px;
+}
+
+.looading{
+    width: 387px;
+    height: 117px;
+    padding: 55px 0px 0px 4px;
+    margin: 0%;
+}
+
+@media (max-width:768px){
+    .inicio{
+        padding: 5%;
+        margin-bottom: 20%;
+    }
+    .inicio img{
+        display: none;
+    }
+    .servicos a{
+        width: 20%;
+        margin-right: 15%;
+
+    }
+    .servicos p{
+        margin-left: 25%;
+    }
+
+    
+.cards-servicos div{
+    width: 860px;
+    margin-left: 4%;
+    
+  
+}
+}
+@media (max-width:425px){
+    .inicio{
+        margin-left: 40%;
+        padding: 10%;
+        margin-bottom: 25%;
+        align-items: centers;
+    }
+
+    .servicos{
+        margin-left: 60%;
+       
+       
+    }
+    .servicos a{
+        width: 80%;
+       
+    }
+    .servicos p{
+        display: none;
+    }
+
+    
+}
+
+

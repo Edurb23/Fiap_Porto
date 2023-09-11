@@ -7,6 +7,16 @@ section{
     
 }
 
+.titulo{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    color: #939BF5;
+}
+
+
 .colaborador{
     width: 280px;
     
@@ -51,8 +61,19 @@ section{
 }
 
 @media (max-width:768px){
+    .titulo{
+        font-size: 50px;
+        margin-left: 25%;
+    }
+    
+
     .team1 div{
         padding: 10px;
+        margin-left: 20%;
+    }
+    .team2 div{
+        padding: 10px;
+        margin-left: 20%;
     }
 }
 
@@ -63,4 +84,13 @@ section{
     .team2 div{
         padding: 10px;
     }
+}
+
+@media (max-width: 425px){
+    .titulo{
+        font-size: 60px;
+        margin-left: 25%;
+    }
+   
+    
 }

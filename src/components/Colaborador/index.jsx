@@ -9,6 +9,8 @@ const Colaborador = () => {
        
         <>
 
+      <h1 className="titulo">Integrantes</h1>
+
         <section className="team1">
 
        <div className="colaborador">
