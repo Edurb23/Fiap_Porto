@@ -1,0 +1,69 @@
+.OWP{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+}
+
+.OWP a{
+    width: 220px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 0px, 7px, 0px, 7px;
+    background-color: #000;
+    color: #939BF5;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 45%;
+
+}
+
+
+.OWP p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 2%;
+    margin-left: 5%;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-aberto{
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 15px;
+    width: 1234px;
+    height: 124px;
+    padding: 41px 60px 41px 60px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.card-fechado{
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 15px;
+    width: 1234px;
+    height: 45px;
+    padding: 41px 60px 41px 60px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.cards div h1 {
+    font-size: 38px;
+    color: #939BF5;
+}
+
+.cards div p{
+    font-size: 20px;
+    margin-top: 2%;
+    color: #000;
+}

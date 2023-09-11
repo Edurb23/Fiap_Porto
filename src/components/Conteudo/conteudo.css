@@ -60,16 +60,24 @@
 
 }
 
-.servicos div{
+.cards-servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cards-servicos div{
     width: 978px;
     height: 308px;
     border-radius: 45px;
     background-color: #000000;
     color: #939BF5;
     margin-left: 20%;
-    }
+    padding: 2%;
+    margin-top: 3%;
+}
 
-.servicos h3{
+.cards-servicos h3{
     font-size: 26px;
     margin: 1%;
 }
@@ -87,3 +95,6 @@
     padding: 55px 0px 0px 4px;
     margin: 0%;
 }
+
+
+
