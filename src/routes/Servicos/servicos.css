@@ -99,6 +99,46 @@
     }
 }
 
+@media (max-width: 600px){
+    .conteudo h1{
+        margin-top: 10%;
+        margin-right: 8%;
+         margin-left: -9%;
+ 
+     }
+     .texto-descritivo{
+        padding-left: 22%;
+        font-weight: 100;
+        font-size: 20px;
+        margin-top: 5%;
+
+    }
+    .imagemchat1{
+        width: 80%;
+        margin-left: -10%;
+
+    }
+}
+
+@media (max-width: 438px){
+    .conteudo h1{
+       margin-top: 10%;
+       padding-left: 32%;
+
+    }
+    
+    .texto-descritivo{
+        padding-left: 15%;
+        font-weight: 100;
+        font-size: 20px;
+        margin-top: 5%;
+
+    }
+    .imagemchat1{
+        width: 80%;
+    }
+}
+
 
 
 

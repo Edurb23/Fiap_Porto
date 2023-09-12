@@ -75,12 +75,14 @@
 
 @media (max-width:438px){
     .cabecalho a {
-        margin-left: 5%;   
+        margin-left: 5%; 
+        font-size: 14px;
     }
     .cabecalho img{
         width: 35%;
         margin-right: 75px;
     }
+    
 }
 @media (max-width: 320px){
     .cabecalho img{
