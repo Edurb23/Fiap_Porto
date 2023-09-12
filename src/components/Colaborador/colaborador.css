@@ -133,28 +133,7 @@
     }
 }
 
-@media(max-width:438px){
-    .titulo{
-        margin-left: 45%;
-    }
-    .team1{
-        margin-left: 20%;
-        margin-bottom: 10%;
-    }
-    .team1 .colaborador .cabecalho{
-        width: 80%;
-        
-    }
-    .team1 .colaborador .rodape{
-        width: 80%;
-        
-    }
-    .team2{
-           flex-direction: column;
-           margin-left: 18%;
-           margin-bottom: 5%;
-    }
-}
+
 
 @media (max-width: 425px){
     .titulo{
