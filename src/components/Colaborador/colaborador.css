@@ -114,6 +114,16 @@
     }
 }
 
+@media (max-width: 600px){
+    .team1 div{
+        margin-right: 39%;
+        margin-left: -40%;
+    }
+    .team2 div{
+        margin-right: 39%;
+        margin-left: -40%;
+    }
+}
 @media (max-width: 320px){
     .team1 div{
         padding: 10px;

@@ -88,6 +88,21 @@
       }
 }
 
+@media (max-width:600px){
+  .cards div{
+    width: 421px;
+    height: 55px;
+    margin-left: 5%;
+  }
+  .cards div h1{
+    font-size: 28px;
+  }
+  .OWP a{
+    margin-left: 28%;
+    width: 44%;
+  }
+}
+
 @media (max-width:438px){
     .OWP a{
         margin-left: 40%;
