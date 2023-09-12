@@ -151,6 +151,19 @@
 
 }
 
+@media (max-width:600px){
+    .servicos a{
+        margin-bottom: 3%;
+       margin-left: 31%;
+       margin-top: 12%;
+    }
+        .cards-servicos div{
+            width: 513px;
+         height: 308px;
+    }
+    
+}
+
 @media (max-width:438px){
     .inicio{
         margin-left: 50%;

@@ -67,6 +67,12 @@
       width: 138%;
     }
   }
+
+  @media (max-width:600px){
+    .footer{
+      max-width: 100%;
+    }
+  }
   
  
   @media (max-width: 425px) {

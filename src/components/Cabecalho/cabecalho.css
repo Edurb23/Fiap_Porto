@@ -60,6 +60,19 @@
         margin-right: 15px;
     }
 
+
+ @media (max-width:600px){
+    .cabecalho img{
+        width: 21%;
+        margin-right: 75px;
+        
+    }
+    .cabecalho a{
+        
+        font-size: 19px;
+    }
+}
+
 @media (max-width:438px){
     .cabecalho a {
         margin-left: 5%;   
